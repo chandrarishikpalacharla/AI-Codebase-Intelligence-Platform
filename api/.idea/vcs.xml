@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
     <mapping directory="$PROJECT_DIR$/temp/b9912338-55ab-4f9b-91a9-f81502f2abba/extracted/OCR" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/temp/b9912338-55ab-4f9b-91a9-f81502f2abba/extracted/OCR/backend" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/temp/b9912338-55ab-4f9b-91a9-f81502f2abba/extracted/OCR/frontend" vcs="Git" />
