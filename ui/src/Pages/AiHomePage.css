@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Inter, sans-serif;
+}
+
+.background{
+    width: 100%;
+    height: 100vh;
+
+    background: #343541;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+}
+
+.hero-section{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    margin-bottom: 40px;
+}
+
+.appname{
+    color: white;
+
+    font-size: 52px;
+
+    font-weight: 700;
+
+    margin-bottom: 12px;
+}
+
+.welcome{
+    color: #b4bcd0;
+
+    font-size: 18px;
+}
+
+.chat-container{
+    width: 100%;
+    max-width: 780px;
+}
+
+.input-box{
+    width: 100%;
+
+    display: flex;
+    align-items: flex-end;
+
+    background: #40414f;
+
+    border-radius: 24px;
+
+    padding: 14px 18px;
+
+    gap: 12px;
+}
+
+.input-text{
+    flex: 1;
+
+    background: transparent;
+
+    border: none;
+
+    outline: none;
+
+    resize: none;
+
+    color: white;
+
+    font-size: 16px;
+
+    line-height: 1.6;
+
+    max-height: 200px;
+
+    overflow-y: auto;
+}
+
+.input-text::placeholder{
+    color: #9ca3af;
+}
+
+.icon-btn,
+.send-btn{
+    background: transparent;
+
+    border: none;
+
+    color: white;
+
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.send-btn{
+    background: white;
+
+    color: black;
+
+    width: 38px;
+    height: 38px;
+
+    border-radius: 50%;
+}
+
+/* horizontal scroll container */
+.file-list {
+    width: 100%;
+    max-width: 780px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    overflow-x: auto;
+    margin-bottom: 10px;
+    padding-bottom: 4px;
+}
+
+/* each file chip */
+.file-name {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    background: #40414f;
+    padding: 8px 12px;
+    border-radius: 12px;
+    white-space: nowrap;    /* prevent text wrapping */
+    flex-shrink: 0;         /* prevent chip from shrinking */
+}
+
+/* remove button inside chip */
+.remove-file {
+    cursor: pointer;
+    color: #9ca3af;
+    font-size: 14px;
+    margin-left: 4px;
+}
+
+.remove-file:hover {
+    color: white;
+}
+
+.pdf-icon{
+    color: #ff4d4f;
+}
+
+.status {
+    color: #9ca3af;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.answer-box {
+    background: #40414f;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 16px;
+    color: white;
+    font-size: 15px;
+    line-height: 1.7;
+    white-space: pre-wrap;
+    overflow-y: auto;
+    max-height: 400px;  
+}
